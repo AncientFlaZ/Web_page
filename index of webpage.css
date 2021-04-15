@@ -1,0 +1,302 @@
+
+body{
+  margin: 0;
+}
+/* Header and nav bar */
+.logo{
+  height: 100px;
+  width: 150px;
+  float: left;
+}
+
+
+.header {
+  padding: 10px;
+  text-align: left;
+  color: blue;
+
+}
+.topnav {
+  overflow: hidden;
+  padding-left: 65%;
+}
+
+.topnav a {
+  float: left;
+  display: inline-block;
+  color: blue;
+  text-align: center;
+  padding: 14px 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Parallax  */
+.parallax{
+  background-image: url("background1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  max-height: 800px;
+  display: inline-block;
+
+}
+
+.parallax1{
+  background-image:url("car-background.jpg") ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  max-height: 800px;
+}
+
+.parallax2{
+  background-image:url("car-background2.jpg") ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  max-height: 800px;
+}
+
+.parallax3{
+  background-image:url("car-background3.jpg") ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  max-height: 800px;
+}
+
+
+/* parallax css*/
+
+.about{
+
+  height: 200px;
+  width: 40%;
+  display: inline-block;
+  background: rgba(0, 0, 0,0.0);
+
+}
+.about h1,h2 {
+  font-size: 30px;
+  text-align:center;
+  color: white;
+  text-transform: full-width;
+
+}
+
+.typecar{
+	width: 20%;
+	height: 50px;
+	text-align: center;
+	margin-left: 10%;
+	color: white;
+	display: inline-block;
+}
+
+.typecar a {
+	color: white;
+  text-decoration:none;
+}
+
+.icons{
+	width: 30%;
+	height: 100px;
+	text-align: center;
+	color: white;
+	margin-bottom: 9.5%;
+	display: inline-block;
+}
+.icons img{
+	height: 100px;
+	width: 100px;
+  display: inline-block;
+}
+
+.service{
+  font-size:25px;
+}
+
+
+.chip{
+  font-size:25px;
+}
+
+.column.middle {
+  width: 50%;
+  height: 550px;
+  overflow: hidden;
+  float: right;
+  }
+/* animation css */
+
+.Trasition{
+  height: 450px;
+  width: 500%;
+  //overflow: hidden;
+
+
+
+	animation-name:movement;
+	animation-duration: 16s;
+	animation-iteration-count: infinite;
+	animation-play-state: running;
+	animation-timing-function: ease-in-out;
+	animation-delay: 2s;
+}
+.Trasition img{
+  height: 390px;
+  width: 20%;
+  float: left;
+  border: 5px;
+  border-color: green;
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 300px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+
+
+
+
+@keyframes movement
+		{
+			12.5%
+			{
+				margin-left: -100%;
+
+			}
+			25%
+			{
+				margin-left: -100%;
+			}
+			37.5%
+			{
+
+				margin-left: -200%;
+			}
+			50%
+			{
+				margin-left: -200%;
+			}
+			62.5%
+			{
+				margin-left: -300%;
+
+			}
+			75%
+			{
+				margin-left: -300%;
+			}
+
+			87.5%
+			{
+				margin-left: -400%;
+			}
+			100%
+			{
+				margin-left: -400%;
+			}
+		}
+
+
+.main_content_div{
+  width: auto;
+  height: 800px;
+
+  
+}
+
+/* parallexl 1 css*/
+.Used_cars_first_div{
+  height: auto;
+width: 100%;
+  margin-top: 2.5%;
+  display: inline-block;
+  /*background: red;*/
+  align-content: center;
+
+}
+.Container_used_cars{
+  height: 50%;
+  width: 100%;
+  /*background-color: red;*/  
+  overflow: hidden;
+}
+.main_used_cars{
+  height: 100%;
+  width: 200%;
+  display: inline-block;
+  /*background-color: green;*/
+  overflow-x: hidden;
+}
+
+
+.main_used_cars img{
+  display: inline-block;
+  height: 60%;
+  width: 10%;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+
+.used_cars_main_contant{
+  height: 20%;
+  width: 40%;
+  color: white;
+  margin: auto;
+  text-align: center;
+}
+ 
+ 
+.container{
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 6%;
+  height: 600px;
+  /*background-color: red;*/
+  display: inline-block;
+} 
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+}
+
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
